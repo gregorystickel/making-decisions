@@ -155,9 +155,7 @@ let z = 5;
 //CODE HERE
 while (z > 0) {
   for (let i = z; i > 0; i--) {
-  console.log(i);
+    console.log(i);
   }
   z--;
-  }
-
-
+}
