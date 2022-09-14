@@ -58,18 +58,18 @@ let rain = true;
 
 //CODE HERE
 if (temperature >= 80 && rain === true) {
-    console.log(`one should wear a t-shirt and take an umbrella.`);   
-  } else if (temperature > 60 && temperature < 80 && rain === true) { 
-    console.log(`one should wear a rain-jacket.`);
-  } else if (temperature <= 60 && rain === true) {
-    console.log(`one should wear a jacket and carry an umbrella.`)    
-  } else if (temperature >= 80 && rain === false) { 
-    console.log(`one should wear a t-shirt.`);
-  } else if (temperature > 60 && temperature < 80 && rain === false) { 
-      console.log(`one should wear long sleeve shirt.`);
-  } else if (temperature <= 60 && rain === false) {
-      console.log(`one should wear a jacket.`); 
-  }
+  console.log(`one should wear a t-shirt and take an umbrella.`);
+} else if (temperature > 60 && temperature < 80 && rain === true) {
+  console.log(`one should wear a rain-jacket.`);
+} else if (temperature <= 60 && rain === true) {
+  console.log(`one should wear a jacket and carry an umbrella.`);
+} else if (temperature >= 80 && rain === false) {
+  console.log(`one should wear a t-shirt.`);
+} else if (temperature > 60 && temperature < 80 && rain === false) {
+  console.log(`one should wear long sleeve shirt.`);
+} else if (temperature <= 60 && rain === false) {
+  console.log(`one should wear a jacket.`);
+}
 
 ////////// PROBLEM 5 //////////
 
@@ -103,7 +103,6 @@ for (let i = 10; i >= 1; i--) {
   console.log(i);
 }
 
-
 ////////// PROBLEM 8 //////////
 
 let score = 0;
@@ -114,6 +113,10 @@ let passingScore = 7;
 */
 
 //CODE HERE
+while (score < passingScore) {
+  console.log(`Your score is not high enough`);
+  score++;
+}
 
 ////////// INTERMEDIATE PROBLEMS //////////
 
